@@ -1,0 +1,168 @@
+Primitive datatypes
+
+Integral Datatypes
+	byte
+	short
+	int
+	long
+
+Floating point data types
+	float
+	double
+
+
+non-numeric datatypes
+	boolean
+	char
+
+
+Literals
+=========
+
+int x = 10;
+
+keyword in java
+data type
+
+variable
+identifier
+
+10
+
+constant/literals. 
+
+int y = 125;
+
+
+There are 5 types of Literals in java. 
+
+Integral Literals. 
+Floating point literals. 
+Char literals. 
+boolean literals. 
+String literals. 
+
+
+
+Integral Literals:
+-------------------
+
+Decimal form (base 10)
+
+ 0 to 9
+
+int x = 10;
+int y = 510;
+
+
+Octal Form (base 8)
+
+ 0 to 7
+
+ starting from 0 (zero)
+
+int x = 0125; (valid)    
+int x = 0786; 
+
+Hexadecimal Form (base 16)
+
+0 to 9  and A to F or a to f
+
+starting from 0x  or 0X;
+
+int x = 0x123;
+int x = 0xFade;
+int x = 0Xabcd;
+
+
+binary form (base 2) (java 7 onwards)
+
+0 and 1
+
+starting from 0b or 0B;
+
+
+int x = 0b123;
+
+int x = 0b1010;
+
+int x = 12345;
+
+
+Floating point literals:
+------------------------
+float and double. 
+
+any floating point value is by default data type is double. 
+
+The literal with decimal points are called as floating point literals. 
+
+double d = 10.5;
+float f = 123.678;
+
+double d = 0123.456;
+
+floating point literals can't represented in different type of integral literal form like ocatal, hexadecimal and binary. 
+Only integral form is allowed with floating point literal  as decimal form.
+
+
+Char literals:
+------------------
+
+2 bytes
+
+0 to 65535
+
+char ch = 'a';  space;
+char ch = 97;
+char ch = '\u0061';
+char ch = '\n';
+
+boolean literals:
+-----------------
+
+boolean b = false;
+boolean b = true;
+
+
+String literals:
+----------------
+String s = new String("abc");
+
+here  s is an object. 
+
+"abcdsfdsfjsdkfhskdfkjsdhfksdjf\n"+
+"sdkfjsdlkfjsdlfjsdlfjkslkj\n"+
+"dfssfsfsf8766987767";
+
+
+String s = "abc987&&**$$";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
