@@ -1,6 +1,13 @@
+import java.util.*;
+
+
 public class ifelseladder {
     public static void main (String[] args){
-        int score = 78;
+       Scanner mark=new Scanner(System.in);
+       
+       System.out.println("Enter your score: ");
+       int score=mark.nextInt();
+     
         
         if(score >= 90){
             System.out.println("Grade: A");
@@ -13,6 +20,8 @@ public class ifelseladder {
         } else{
             System.out.println("Grade: F");
         }
+
     }
+
     
 }
