@@ -4,7 +4,7 @@ public class dowhile {
         do {
             System.out.println("Hello World!");
             i++;
-        } while (i < 5); // will print 5 times
+        } while (i <= 5); // will print 5 times
     }
     
 }
