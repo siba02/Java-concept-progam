@@ -1,11 +1,11 @@
 
-class p{
+class T{
     public void m1(){
         System.out.println("hello");
     }
 }
 
-class c extends p{
+class u extends T{
     public void m2(){
         System.out.println("world");
     }
@@ -13,19 +13,19 @@ class c extends p{
 
 public class IsaInheritance {
     public static void main(String[] args) {
-        // p p1=new p();
+        // T p1=new T();
         // p1.m1();
         // p1.m2();   //can't find symbol.
 
-        c obj = new c();
+        u obj = new u();
         obj.m1();
         obj.m2();
 
-        // p p2=new c();
+        // T p2=new u();
         // p2.m1();
         // p2.m2();  //can't find symbol
 
-        // c c1 =new p();   //incompatable type.
+        // u c1 =new T();   //incompatable type.
 
     }
     
