@@ -11,6 +11,7 @@ public class StringExamp4 {
         System.out.println(str.trim());  //remove the space before and after the string (not middle).
         System.out.println(str.toUpperCase()); //HELLO WORLD
         System.out.println(str.toLowerCase()); //hello world
+        System.out.println(str.toString());
     }
     
 }
