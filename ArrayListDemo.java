@@ -16,6 +16,13 @@ public class ArrayListDemo {
         System.out.println(al);             //[A, Apple, Mango, Orange]
         al.add(null);
         System.out.println(al);             //[A, Apple, Mango, Orange, null]
+
+
+        System.out.println(al.get(2)); 
+
+        for(int i=0;i<al.size();i++){
+            System.out.print(al.get(i)+",");
+        }
     }
 
     
