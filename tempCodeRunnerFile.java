@@ -1,3 +1,8 @@
-
-public int compare(Object obj1, Object obj2){
-		String s1 = obj1.toString();
+TreeSet ts = new TreeSet();
+		// ts.add(e1);
+		// ts.add(e2);
+		// ts.add(e3);
+		// ts.add(e4);
+		// ts.add(e5);
+		
+		// Syste
