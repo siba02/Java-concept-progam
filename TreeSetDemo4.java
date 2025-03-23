@@ -1,7 +1,7 @@
 import java.util.Comparator;
 import java.util.TreeSet;
 
-public class TreeSerDemo4 {
+public class TreeSetDemo4 {
     public static void main(String args[]){
 		TreeSet ts = new TreeSet(new MyComparator());
 		ts.add("Rakesh");
