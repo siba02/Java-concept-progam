@@ -15,7 +15,7 @@ abstract class P extends S{
 }
 
 // C is now an independent concrete class
-class Q extends P {  
+class C extends P {  
     public void m3() {
         System.out.println("Java");
     }
@@ -23,7 +23,7 @@ class Q extends P {
 
 public class Abstractexmp {
     public static void main(String[] args) {
-        Q x = new Q();  // Now works because C is independent
+        C x = new C();  // Now works because C is independent
         x.m1();
         x.m2();
         x.m3();  // Calls the m3 method in C
